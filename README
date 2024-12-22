@@ -1,0 +1,27 @@
+conda create -n oatk_v1.0.0_241222
+
+conda activate oatk_v1.0.0_241222
+
+
+conda install oatk
+#bioconda/linux-64::oatk-1.0-h577a1d6_1
+
+conda install python
+#
+#pip install bio
+
+
+conda install seqtk
+#bioconda/linux-64::seqtk-1.4-h577a1d6_3
+
+conda install mafft
+#conda-forge/linux-64::mafft-7.526-h4bc722e_0
+
+conda install hmmer
+#bioconda/linux-64::hmmer-3.4-h503566f_3
+
+conda install parallel
+#conda-forge/linux-64::parallel-20241122-ha770c72_0
+
+conda install entrez-direct
+#bioconda/linux-64::entrez-direct-22.4-he881be0_0
